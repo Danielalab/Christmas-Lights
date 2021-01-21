@@ -35,4 +35,7 @@ displayed during the Christmas Holidays.
 
 ## Objetivos de aprendizaje
 
-- Animation with CSS
+### CSS
+- Animation property
+- Keyframes
+- pseudo elements (`before` | `after`)
