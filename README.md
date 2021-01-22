@@ -33,7 +33,19 @@ displayed during the Christmas Holidays.
 [PureCSSChristmasLights](https://codepen.io/tobyj/pen/QjvEex)
 [Christmas Lights](https://codepen.io/irfanezani_/pen/mdeLpKo)
 
-## Objetivos de aprendizaje
+## Planning
+
+I'm planning to work in this project 6 hours per week.
+
+| Activity                    | Hours       |
+| :---                        |    :----:   | 
+| PM meeting - Mery           | 30 min      | 
+| Code Review - Maia          | 30 min      |
+| Planning meeting - Steph    | 45 min      |
+| Hacking + research          | 4 hours     |
+
+
+## Objectives learning
 
 ### CSS
 - Animation property
