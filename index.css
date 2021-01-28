@@ -1,11 +1,15 @@
+body {
+  background-color: #000000;
+}
+
 .globe {
-  border: 1px solid #5f5b61;
   display: inline-block;
   position: relative;
   border-radius: 50%;
   width: 15px;
   height: 30px;
   margin-left: 50px;
+
 }
 
 .globe::before {
@@ -30,4 +34,45 @@
   left: 15px;
   border-bottom: 2px solid #4a4a4a;
   border-radius: 50%;
+}
+
+.globes-container .globe:nth-child(3n-1) {
+  animation: pulse-variation-3 1s ease infinite alternate;
+}
+
+.globes-container .globe:nth-child(3n+1) {
+  animation: pulse-variation-2 1.4s ease infinite alternate;
+}
+
+.globes-container .globe:nth-child(3n) {
+  animation: pulse-variation-1 1.8s ease infinite alternate;
+}
+
+/* Animations */
+
+@keyframes pulse-variation-1 {
+  0% {
+    background-color:#f5338160;
+  }
+  100% {
+    background-color: #f53381;
+  }
+}
+
+@keyframes pulse-variation-2 {
+  0% {
+    background-color: #9c51f260;
+  }
+  100% {
+    background-color: #9C51F2;
+  }
+}
+
+@keyframes pulse-variation-3 {
+  0% {
+    background-color: #54fff960;
+  }
+  100% {
+    background-color: #54FFFA;
+  }
 }
