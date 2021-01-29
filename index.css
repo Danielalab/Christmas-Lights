@@ -9,7 +9,8 @@ body {
   width: 15px;
   height: 30px;
   margin-left: 50px;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .globe::before {
@@ -36,6 +37,13 @@ body {
   border-radius: 50%;
 }
 
+.globes-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
 .globes-container .globe:nth-child(3n-1) {
   animation: pulse-variation-3 1s ease infinite alternate;
 }
@@ -56,6 +64,7 @@ body {
   }
   100% {
     background-color: #f53381;
+    box-shadow: 2px 2px 15px 3px #f53381;
   }
 }
 
@@ -65,6 +74,7 @@ body {
   }
   100% {
     background-color: #9C51F2;
+    box-shadow: 2px 2px 15px 3px #9C51F2;
   }
 }
 
@@ -74,5 +84,6 @@ body {
   }
   100% {
     background-color: #54FFFA;
+    box-shadow: 1px 2px 15px 3px #54FFFA;
   }
 }
