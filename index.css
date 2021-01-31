@@ -2,6 +2,20 @@ body {
   background-color: #000000;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+/* Styles Globes */
+
 .globe {
   display: inline-block;
   position: relative;
@@ -38,8 +52,6 @@ body {
 }
 
 .globes-container {
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   overflow: hidden;
   margin-right: 50px;
@@ -55,6 +67,23 @@ body {
 
 .globes-container .globe:nth-child(3n) {
   animation: pulse-variation-1 1.8s ease infinite alternate;
+}
+
+/* Styles Controlers */
+
+button {
+  border-radius: 50%;
+  border: 3px solid #c592ff;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  width: 80px;
+  height: 80px;
+}
+
+button:hover {
+  background-color: #c592ff;
 }
 
 /* Animations */
