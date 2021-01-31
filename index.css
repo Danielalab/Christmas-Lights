@@ -25,6 +25,7 @@ body {
   margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
+/*   transition: 2s all ease; */
 }
 
 .globe::before {
@@ -67,6 +68,11 @@ body {
 
 .globes-container .globe:nth-child(3n) {
   animation: pulse-variation-1 1.8s ease infinite alternate;
+}
+
+.globes-container .globe.paused-animation {
+  animation: none;
+  background-color: #503c68;
 }
 
 /* Styles Controlers */
