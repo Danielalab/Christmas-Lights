@@ -25,7 +25,6 @@ body {
   margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
-/*   transition: 2s all ease; */
 }
 
 .globe::before {
@@ -71,8 +70,13 @@ body {
 }
 
 .globes-container .globe.paused-animation {
-  animation: none;
+  animation-play-state: paused;
+  animation-name: none;
   background-color: #503c68;
+}
+
+.globes-container .globe.running-animation {
+  animation-play-state: running;
 }
 
 /* Styles Controlers */
