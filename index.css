@@ -85,6 +85,7 @@ body {
   flex-wrap: wrap;
   overflow: hidden;
   margin-right: 50px;
+  width: 65%;
 }
 
 .globes-container .globe:nth-child(3n-1) {
@@ -112,7 +113,10 @@ body {
 /* Styles Controlers */
 
 .container-controllers {
-  width: 40%;
+  width: 35%;
+  position: fixed;
+  left: 65%;
+  height: 100vh;
 }
 
 button {
