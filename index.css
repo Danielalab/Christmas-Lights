@@ -3,6 +3,8 @@
 body {
   background-color: #000000;
   font-family: 'Yusei Magic', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .d-flex {
@@ -17,12 +19,28 @@ body {
   align-items: center;
 }
 
+.align-content-start {
+  align-content: start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
 .m-1 {
   margin: 1rem;
 }
 
 .mx-1 {
   margin: 0 1rem;
+}
+
+.container {
+  min-height: 100vh;
 }
 
 /* Styles Globes */
@@ -93,6 +111,10 @@ body {
 
 /* Styles Controlers */
 
+.container-controllers {
+  width: 40%;
+}
+
 button {
   border-radius: 50%;
   border: 3px solid #c592ff;
@@ -124,6 +146,39 @@ select {
   color: #ffffff;
   cursor: pointer;
   padding: 1rem;
+}
+
+input {
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  border-radius: 20%;
+  border: 3px solid #c592ff;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 1rem;
+  width: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.btn-create-globes {
+  background-color: #9C51F2;
+  border-radius: 10%;
+  padding: 0.8rem 1rem;
+  width: auto;
+  height: auto;
+  transition: 0.5s;
+}
+
+.btn-create-globes:hover {
+  background-color: #c592ff;
 }
 
 /* Animations */
