@@ -43,6 +43,14 @@ body {
   min-height: 100vh;
 }
 
+/* Styles title */
+
+.title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 48px;
+}
+
 /* Styles Globes */
 
 .globe {
