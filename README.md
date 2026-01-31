@@ -1,5 +1,8 @@
 # Christmas Lights
 
+<img width="1279" height="554" alt="Screenshot 2026-01-30 at 9 39 28 PM" src="https://github.com/user-attachments/assets/d4ed7bf1-ed6f-4e16-8422-c2baddb00356" />
+
+
 **Tier:** 1-Beginner
 
 The ChristmasLights application relies on your development talents to create
